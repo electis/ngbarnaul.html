@@ -48,19 +48,31 @@ $counter_halfbg_timer_countdown.countdown('2019/11/29 23:59:59', function (event
 //						OWL CAROUSEL OPTIONS
 //------------------------------------------------------------------------
 
-$('.carousel-2item-dots').owlCarousel({
+$('.carousel-3item-nav-marg').owlCarousel({
     loop: false,
-    margin: 40,
+    margin: 120,
+    nav: true,
+    dots: false,
+    navText: ['',''],
     autoplay: true,
     autoplayHoverPause: true,
-    nav: false,
     rewind: true,
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            stagePadding: 30
+        },
+        600: {
+            items: 2,
+            stagePadding: 30
         },
         1000: {
-            items: 2
+            items: 3,
+            stagePadding: 118
+        },
+        1600: {
+            items: 4,
+            stagePadding: 118
         }
     }
 
@@ -104,6 +116,40 @@ $('.carousel-3item-nav-marg').owlCarousel({
 });
 
 
+
+//------------------------------------------------------------------------
+//						OWL CAROUSEL OPTIONS
+//------------------------------------------------------------------------
+
+$('.carousel-3item-nav-marg').owlCarousel({
+    loop: false,
+    margin: 120,
+    nav: true,
+    dots: false,
+    navText: ['',''],
+    autoplay: true,
+    autoplayHoverPause: true,
+    rewind: true,
+    responsive: {
+        0: {
+            items: 1,
+            stagePadding: 30
+        },
+        600: {
+            items: 2,
+            stagePadding: 30
+        },
+        1000: {
+            items: 3,
+            stagePadding: 118
+        },
+        1600: {
+            items: 4,
+            stagePadding: 118
+        }
+    }
+
+});
 
 
 //------------------------------------------------------------------------------------
