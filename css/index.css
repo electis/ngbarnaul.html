@@ -52,14 +52,14 @@
 }
 
 #header-center-carousel-single .bg {
-    background-image: url('../images/banner2.jpg');
+    background-image: url('/images/banner2.jpg');
     background-repeat: no-repeat;
     background-position: 75% 50%;
     background-size: cover;
     /*opacity: 0.5;*/
 }
 #counter-halfbg-timer .half-container-left {
-    background-image: url('../images/bg-blur-2.jpg');
+    background-image: url('/images/bg-blur-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
