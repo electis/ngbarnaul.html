@@ -1,3 +1,89 @@
+.f-nar, .card-block {
+	font-family: 'Fira Sans Condensed' ;
+}
+
+.f-enar {
+	font-family: 'Fira Sans Extra Condensed' ;
+}
+
+.tabs-ul {
+	list-style: disc;
+	margin-left: 10px;
+	overflow: visible;
+	font-size: 125%;
+	text-align: left;
+}
+
+.tabs-ul-ub {
+	list-style: disc;
+	margin-left: 10px;
+	overflow: visible;
+	font-size: 125%;
+	text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fs-125 {
+	font-size: 125%;
+}
+
+.tc-main {
+	color: #353B4A;
+}
+
+#footer-list-form {
+    background: #353B4A;
+}
+
+.round {
+    border-radius: 100px;
+}
+
+.u-b {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mx-20 {
+    margin: 0 20px 0 20px;
+}
+
+.px-20 {
+    padding: 0 20px 0 20px;
+}
+
+
+.wh-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-30-l {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bg-50-l {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-60-l {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.d-none {
+    display: none;
+}
+
+
 /* --------------- Цвета ------------------ */
 section.dark, .nav-bg.dark, .bg-test.dark, .nb-off-canvas.dark, header.dark, .dark .sub-menu, footer.dark, .modal-content.dark, .dark .mega-menu-container, .off-canvas-overlay.dark {
 background-color: #353B4A;
@@ -410,49 +496,50 @@ color: #999999;
 
 /* ------------------ Типография --------------------- */
 body, .datepicker {
-	font-family: 'Open Sans';
-	font-size: 15px;
+	font-family: 'Fira Sans';
+	font-size: 18px;
 	font-style: inherit;
 	font-weight: 400;
 	text-transform: inherit;
 }
 h1 {
-	font-family: 'Roboto';
+	font-family: 'Fira Sans Condensed';
+	/*font-family: 'Merriweather';*/
 	font-size: 72px;
 	font-style: initial;
-	font-weight: 100;
+	font-weight: 400;
 	text-transform: inherit;
 }
 h2 {
-	font-family: 'Nunito Sans';
+	font-family: 'Fira Sans';
 	font-size: 36px;
 	font-style: inherit;
-	font-weight: 200;
+	font-weight: 400;
 	text-transform: inherit;
 }
 h3 {
-	font-family: 'Nunito Sans';
+	font-family: 'Fira Sans';
 	font-size: 26px;
 	font-style: inherit;
 	font-weight: 300;
 	text-transform: inherit;
 }
 h4 {
-	font-family: 'Nunito Sans';
+	font-family: 'Fira Sans';
 	font-size: 20px;
 	font-style: inherit;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: inherit;
 }
 .navbar-nav, aside#navbar .nav {
-	font-family: 'Open Sans';
+	font-family: 'Fira Sans';
 	font-size: 15px;
 	font-style: inherit;
 	font-weight: 400;
 	text-transform: inherit;
 }
 .btn {
-	font-family: 'Open Sans';
+	font-family: 'Fira Sans';
 	font-size: 15px;
 	font-style: inherit;
 	font-weight: 400;

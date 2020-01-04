@@ -1,51 +1,11 @@
-   .round {
-       border-radius: 100px;
-   }
-
-.u-b {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.mx-20 {
-    margin: 0 20px 0 20px;
-}
-
-.px-20 {
-    padding: 0 20px 0 20px;
-}
-
-
-.wh-100 {
-    width: 100%;
-    height: 100%;
-}
-
-.bg-30 {
-    background-color: rgba(0,0,0,0.3);
-}
-
-.bg-30-l {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.bg-50-l {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.bg-50 {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.d-none {
-    display: none;
-}
-
 #nav-center-logo-menu-btn .nav-bg {
- 	opacity: 0.7;
-}#nav-center-logo-menu-btn {
+    opacity: 0.7;
+}
+
+#nav-center-logo-menu-btn {
     background: transparent;
 }
+
 #header-center-carousel-single {
     /*background: linear-gradient(135deg, #ff2c76, #07bcf7);*/
     /*background: -webkit-linear-gradient(315deg, #ff2c76, #07bcf7);*/
@@ -58,16 +18,20 @@
     background-size: cover;
     /*opacity: 0.5;*/
 }
+
 #counter-halfbg-timer .half-container-left {
     background-image: url('../images/bg-blur-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    opacity:1;
-}#desc-fluid-card-4col {
-	background: #96d4e9;
-}#gallery-carousel-2 {
-    background: #111111;
-}#footer-list-form{
-    background: #8166B6;
+    opacity: 1;
 }
+
+#desc-fluid-card-4col {
+    background: #96d4e9;
+}
+
+#gallery-carousel-2 {
+    background: #111111;
+}
+

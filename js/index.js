@@ -97,57 +97,57 @@ var cleanOpts = [{"featureType":"administrative","elementType":"labels.text.fill
 
 var nightOpts = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#000000"},{"lightness":13}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#08304b"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#0c4152"},{"lightness":5}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#0b434f"},{"lightness":25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#0b3d51"},{"lightness":16}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"transit","elementType":"all","stylers":[{"color":"#146474"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#021019"}]}];
 
-function initialize_contact_map_text_map() {
+// function initialize_contact_map_text_map() {
+//
+//     var map;
+//     var MY_MAPTYPE_ID = 'custom_style';
+//
+//     var mapOptions = {
+//         zoom: 14,
+//         scrollwheel: false,
+//         //draggable: false,
+//         panControl: false,
+//         mapTypeControl: false,
+//         streetViewControl: false,
+//         center: new google.maps.LatLng(40.748659, -73.985705),
+//         mapTypeControlOptions: {
+//             mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+//         },
+//         mapTypeId: MY_MAPTYPE_ID
+//     };
+//
+//     map = new google.maps.Map(document.getElementById('contact-map-text-map'), mapOptions);
+//
+//     var contentString = '<div id="content"> Address <br> Phone <br> Work Hours</div>';
+//
+//     var infowindow = new google.maps.InfoWindow({
+//         content: contentString
+//     });
+//
+//
+//     var myLatLng = new google.maps.LatLng(40.748659, -73.985705);
+//     var marker = new google.maps.Marker({
+//         position: myLatLng,
+//         map: map,
+//         animation: google.maps.Animation.DROP
+//     });
+//
+//     marker.addListener('click', function () {
+//         infowindow.open(map, marker);
+//     });
+//
+//     var styledMapOptions = {
+//         name: 'Custom Style'
+//     };
+//
+//     var customMapType = new google.maps.StyledMapType(dreamOpts, styledMapOptions);
+//
+//     map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+//
+// }
 
-    var map;
-    var MY_MAPTYPE_ID = 'custom_style';
 
-    var mapOptions = {
-        zoom: 14,
-        scrollwheel: false,
-        //draggable: false,
-        panControl: false,
-        mapTypeControl: false,
-        streetViewControl: false,
-        center: new google.maps.LatLng(40.748659, -73.985705),
-        mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-        },
-        mapTypeId: MY_MAPTYPE_ID
-    };
-
-    map = new google.maps.Map(document.getElementById('contact-map-text-map'), mapOptions);
-
-    var contentString = '<div id="content"> Address <br> Phone <br> Work Hours</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
-
-
-    var myLatLng = new google.maps.LatLng(40.748659, -73.985705);
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        animation: google.maps.Animation.DROP
-    });
-
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-
-    var styledMapOptions = {
-        name: 'Custom Style'
-    };
-
-    var customMapType = new google.maps.StyledMapType(dreamOpts, styledMapOptions);
-
-    map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-
-}
-
-
-initialize_contact_map_text_map();
+// initialize_contact_map_text_map();
 //------------------------------------------------------------------------------------
 //						CONTACT FORM VALIDATION'S SETTINGS
 //------------------------------------------------------------------------------------
